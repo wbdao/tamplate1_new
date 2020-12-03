@@ -1,0 +1,147 @@
+.bg-white{
+    background-color: #fff;
+}
+.header .nav > li > a{
+    color: black;
+    font-weight: bold;
+}
+.f-lft{
+    float:left;
+}
+/* blogpage section */
+.blogpage{
+    background-color:#e8e8e8 ;
+    padding-top: 120px;
+
+}
+.blogpage-content{
+    overflow: hidden;
+}
+.blogpage-title,.blogpage-desc{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+.blogpage-title h1{
+    line-height: 180px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.blogpage-desc p {
+    line-height: 180px;
+    text-align: right;
+    color: #999;
+}
+.blogpage-desc p a{
+    color: #6195ff;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+/* Gategory Section */
+.gategory{
+}
+.gategory-content{
+    overflow: hidden;
+}
+.gategory-img{
+    width: 70%;
+    padding: 30px;
+}
+.gategory-img img{
+    width: 100%;
+}
+.gategory-filter{
+    width: 30%;
+    overflow: hidden;
+}
+.gategory-filter-search{
+    position: relative;
+    margin-top: 30px;
+}
+.gategory-filter-search .filter-search{
+    background-color: #e8e8e8;
+    padding: 7px 20px;
+    display: block;
+    width: 100%;
+
+}
+.gategory-filter-search .search-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+    transition: color .4s;
+    cursor: pointer;
+}
+.gategory-filter-search .search-icon:hover{
+    color: #6195ff;
+}
+.gategory .section-header{
+    text-align: left;
+    margin: 20px 0;
+}
+.gategory .section-header h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.gategory .section-header > .line{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.gategory .gategory-desc{
+    position: relative;
+    margin: 10px 0;
+}
+.gategory .gategory-desc .gategory-desc-number{
+    position: absolute;
+    right: 0;
+    color: #6195ff;
+    cursor: pointer;
+}
+/* posts*/
+.post{
+    position: relative;
+    padding-left: 110px;
+    margin-bottom: 50px;
+}
+.post .post-img{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.post .post-img img{
+    max-width: 100%;
+}
+.post .post-title{
+    margin-bottom: 10px;
+}
+.post .post-text{
+    color: #6195ff;
+}
+
+/* tags */
+.tags{
+    margin: 20px 0;
+}
+.tags a{
+    background: #999;
+    color: #000;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+.tags .clear{
+    margin-bottom: 30px;
+}
+/* gategory-img*/
+.gategory-img-list1{
+    list-style: none;
+}
+.gategory-img-list1 li{
+    display: inline-block;
+    margin: 20px 30px 20px 0;
+}
+.gategory-img-list1 li .color-main{
+    margin-right: 10px;
+}
